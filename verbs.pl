@@ -43,11 +43,11 @@ definition(rufen, "to shout").
 definition(an+rufen, "to call (on the phone)").
 
 %%
-% infinitive_form(?V) - predicate for infinitive verb forms
+% infinitive(?V) - predicate for infinitive verb forms
 %
 % ?V - the infinitive verb form
 %%
-infinitive_form(V) :- definition(V, _).
+infinitive(V) :- definition(V, _).
 
 %%
 % verb_forms(?Infinitive, ?SimplePast, ?Perfect) - predicate that verifies/generates
@@ -60,11 +60,13 @@ infinitive_form(V) :- definition(V, _).
 verb_forms(infinitive(machen), simple_past(machten), perfect(haben,gemacht)).
 verb_forms(infinitive(nehmen), simple_past(nahmen), perfect(haben,genommen)).
 verb_forms(infinitive(gehen), simple_past(gingen), perfect(sein,gegangen)).
-verb_forms(infinitive(informieren), simple_past(informierten), perfect(haben, informiert)).
-verb_forms(infinitive(rufen), simple_past(ruft), perfect(haben, gerufen)).
+verb_forms(infinitive(informieren), simple_past(informierten), perfect(haben,informiert)).
+verb_forms(infinitive(rufen), simple_past(ruft), perfect(haben,gerufen)).
 
 % the forms of a verb with a seperable prefix
-verb_forms(infinitive(P+IV), simple_past(SP+" "+P), perfect(HV,P+PP)) :-
-	infinitive_form(P+IV),
-	infinitive_form(IV),
-	verb_forms(infinitive(IV), simple_past(SP), perfect(HV,PP)).
+verb_forms(infinitive(Prefix+InfV),
+			simple_past(SimpPastInf+" "+Prefix),
+			perfect(HelpingVInf,Prefix+PastPart)) :-
+	infinitive(Prefix+InfV),
+	infinitive(InfV),
+	verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(HelpingVInf,PastPart)).
