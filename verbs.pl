@@ -50,6 +50,16 @@ definition(an+rufen, "to call (on the phone)").
 infinitive(V) :- definition(V, _).
 
 %%
+% ieren_infinitive(?V) - predicate for infinitive forms of "-ieren" verbs
+%
+% ?V - the infinitive verb form
+%%
+ieren_infinitive(V) :-
+	infinitive(V),
+	atomic(V),
+	string_concat(_, "ieren", V).
+
+%%
 % verb_forms(?Infinitive, ?SimplePast, ?Perfect) - predicate that verifies/generates
 % the forms of a German verb
 %
@@ -57,11 +67,6 @@ infinitive(V) :- definition(V, _).
 % ?SimplePast - the simple past verb form
 % ?Perfect - the perfect verb form
 %%
-verb_forms(infinitive(machen), simple_past(machten), perfect(haben,gemacht)).
-verb_forms(infinitive(nehmen), simple_past(nahmen), perfect(haben,genommen)).
-verb_forms(infinitive(gehen), simple_past(gingen), perfect(sein,gegangen)).
-verb_forms(infinitive(informieren), simple_past(informierten), perfect(haben,informiert)).
-verb_forms(infinitive(rufen), simple_past(ruft), perfect(haben,gerufen)).
 
 % the forms of a verb with a seperable prefix
 verb_forms(infinitive(Prefix+InfV),
@@ -70,3 +75,16 @@ verb_forms(infinitive(Prefix+InfV),
 	infinitive(Prefix+InfV),
 	infinitive(InfV),
 	verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(HelpingVInf,PastPart)).
+
+% the forms of an -ieren verb
+verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(haben,PastPart)) :-
+	ieren_infinitive(InfV),
+	string_concat(Root, "ieren", InfV),
+	string_concat(Root, "ierten", SimpPastInf),
+	string_concat(Root, "iert", PastPart).
+
+% the forms of base verbs
+verb_forms(infinitive(machen), simple_past(machten), perfect(haben,gemacht)).
+verb_forms(infinitive(nehmen), simple_past(nahmen), perfect(haben,genommen)).
+verb_forms(infinitive(gehen), simple_past(gingen), perfect(sein,gegangen)).
+verb_forms(infinitive(rufen), simple_past(ruft), perfect(haben,gerufen)).
