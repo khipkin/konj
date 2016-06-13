@@ -29,12 +29,25 @@ full_german_verb_form(V) :-
 % verb(forms(gehen))	--> [gehen].
 
 %%
+% definition(?GermanInf, ?EnglishInf) - predicate that stores the relationship
+% between German infinitive forms and their English equivalents
+%
+% ?GermanInf - the German infinitive verb form
+% ?EnglishInf - the equivalent English infinitive verb form
+%%
+definition(machen, "to do").
+definition(nehmen, "to take").
+definition(gehen, "to go").
+definition(informieren, "to inform").
+definition(rufen, "to shout").
+definition(an+rufen, "to call (on the phone)").
+
+%%
 % infinitive_form(?V) - predicate for infinitive verb forms
 %
 % ?V - the infinitive verb form
 %%
-infinitive_form(rufen).
-infinitive_form(an+rufen).
+infinitive_form(V) :- definition(V, _).
 
 %%
 % verb_forms(?Infinitive, ?SimplePast, ?Perfect) - predicate that verifies/generates
