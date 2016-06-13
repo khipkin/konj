@@ -41,6 +41,8 @@ definition(gehen, "to go").
 definition(informieren, "to inform").
 definition(rufen, "to shout").
 definition(an+rufen, "to call (on the phone)").
+definition(sprechen, "to speak").
+definition(ver-sprechen, "to promise").
 
 %%
 % infinitive(?V) - predicate for infinitive verb forms
@@ -71,10 +73,19 @@ ieren_infinitive(V) :-
 % the forms of a verb with a seperable prefix
 verb_forms(infinitive(Prefix+InfV),
 			simple_past(SimpPastInf+" "+Prefix),
-			perfect(HelpingVInf,Prefix+PastPart)) :-
+			perfect(HelpVInf,Prefix+PastPart)) :-
 	infinitive(Prefix+InfV),
 	infinitive(InfV),
-	verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(HelpingVInf,PastPart)).
+	verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(HelpVInf,PastPart)).
+
+% the forms of a verb with an inseperable prefix
+verb_forms(infinitive(Prefix-InfV),
+			simple_past(Prefix-SimpPastInf),
+			perfect(HelpVInf,Prefix-PastPart)) :-
+	infinitive(Prefix-InfV),
+	infinitive(InfV),
+	verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(HelpVInf,BasePastPart)),
+	string_concat(ge, PastPart, BasePastPart).
 
 % the forms of an -ieren verb
 verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(haben,PastPart)) :-
@@ -87,4 +98,5 @@ verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(haben,PastPart)) 
 verb_forms(infinitive(machen), simple_past(machten), perfect(haben,gemacht)).
 verb_forms(infinitive(nehmen), simple_past(nahmen), perfect(haben,genommen)).
 verb_forms(infinitive(gehen), simple_past(gingen), perfect(sein,gegangen)).
-verb_forms(infinitive(rufen), simple_past(ruft), perfect(haben,gerufen)).
+verb_forms(infinitive(rufen), simple_past(ruften), perfect(haben,gerufen)).
+verb_forms(infinitive(sprechen), simple_past(sprachen), perfect(haben,gesprochen)).
