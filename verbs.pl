@@ -32,6 +32,8 @@ full_german_verb_form(V) :-
 % definition(?GermanInf, ?EnglishInf) - predicate that stores the relationship
 % between German infinitive forms and their English equivalents
 %
+% "-" is used to denote a seperable prefix; "+" is used to denote an inseperable prefix.
+%
 % ?GermanInf - the German infinitive verb form
 % ?EnglishInf - the equivalent English infinitive verb form
 %%
@@ -40,9 +42,9 @@ definition(nehmen, "to take").
 definition(gehen, "to go").
 definition(informieren, "to inform").
 definition(rufen, "to shout").
-definition(an+rufen, "to call (on the phone)").
+definition(an-rufen, "to call (on the phone)").
 definition(sprechen, "to speak").
-definition(ver-sprechen, "to promise").
+definition(ver+sprechen, "to promise").
 
 %%
 % infinitive(?V) - predicate for infinitive verb forms
@@ -71,18 +73,18 @@ ieren_infinitive(V) :-
 %%
 
 % the forms of a verb with a seperable prefix
-verb_forms(infinitive(Prefix+InfV),
-			simple_past(SimpPastInf+" "+Prefix),
-			perfect(HelpVInf,Prefix+PastPart)) :-
-	infinitive(Prefix+InfV),
+verb_forms(infinitive(Prefix-InfV),
+			simple_past(SimpPastInf-" "-Prefix),
+			perfect(HelpVInf,Prefix-PastPart)) :-
+	infinitive(Prefix-InfV),
 	infinitive(InfV),
 	verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(HelpVInf,PastPart)).
 
 % the forms of a verb with an inseperable prefix
-verb_forms(infinitive(Prefix-InfV),
-			simple_past(Prefix-SimpPastInf),
-			perfect(HelpVInf,Prefix-PastPart)) :-
-	infinitive(Prefix-InfV),
+verb_forms(infinitive(Prefix+InfV),
+			simple_past(Prefix+SimpPastInf),
+			perfect(HelpVInf,Prefix+PastPart)) :-
+	infinitive(Prefix+InfV),
 	infinitive(InfV),
 	verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(HelpVInf,BasePastPart)),
 	string_concat(ge, PastPart, BasePastPart).
