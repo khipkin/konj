@@ -146,21 +146,64 @@ liegen, (to lie (in a place)), er liegt, er lag, er hat gelegen
 lügen, (to tell lies), er lügt, er log, er hat gelogen
 messen, (to measure), er misst, er maß, er hat gemessen
 nehmen, (to take), er nimmt, er nahm, er hat genommen
-
-schließen, (to close), er schließt, er schloß, er hat geschlossen
+nennen, (to name/call), er nennt, er nannte, er hat genannt
+pfeifen, (to whistle/pipe), er pfeift, er pfiff, er hat gepfiffen
+raten, (to advise), er rät, er riet, er hat geraten
+reiben, (to rub), er reibt, er rieb, er hat gerieben
+reißen, (to tear/rip), er reißt, er riss, er hat gerissen
+reiten, (to ride (on horse)), er reitet, er ritt, er ist geritten
+rennen, (to run), er rennt, er rannte, er ist gerannt
+riechen, (to smell), er riecht, er roch, er hat gerochen
+scheiden, (to separate), er scheidet, er schied, er ist geschieden
+scheinen, (to shine), er scheint, er schien, er hat geschienen
+schieben, (to shove/push), er schiebt, er schob, er hat geschoben
+schießen, (to shoot), er schießt, er schoss, er hat geschossen
+schlafen, (to sleep), er schläft, er schlief, er hat geschlafen
+schlagen, (to hit/beat/strike), er schlägt, er schlug, er hat geschlagen
+schließen, (to close/shut), er schließt, er schloß, er hat geschlossen
 schneiden, (to cut), er schneidet, er schnitt, er hat geschnitten
 schreiben, (to write), er schreibt, er schrieb, er hat geschrieben
+schreien, (to shout/yell), er schreit, er schrie, er hat geschrie(e)n
+schweigen, (to be(come) silent), er schweigt, er schwieg, er hat geschwiegen
+schwellen, (to swell), er schwillt, er schwoll, er ist geschwollen
 schwimmen, (to swim), er schwimmt, er schwamm, er ist geschwommen
+schwingen, (to swing), er schwingt, er schwang, er hat geschwungen
+schwören, (to swear (an oath)), er schwört, er schwur, er hat geschworen
+sehen, (to see), er sieht, er sah, er hat gesehen
+senden, (to send), er sendet, er sandte, er hat gesandt
+singen, (to sing), er singt, er sang, er hat gesungen
+sinken, (to sink), er sinkt, er sank, er ist gesunken
+sitzen, (to sit), er sitzt, er saß, er hat gesessen
 sprechen, (to speak), er spricht, er sprach, er hat gesprochen
+springen, (to jump/spring), er springt, er sprang, er ist gesprungen
+stechen, (to prick/sting), er sticht, er stach, er hat gestochen
+stehen, (to stand), er steht, er stand, er hat gestanden
 stehlen, (to steal), er stiehlt, er stahl, er hat gestohlen
+sterben, (to die), er stirbt, er starb, er ist gestorben
+stinken, (to stink), er stinkt, er stank, er hat gestunken
 streichen, (to paint), er streicht, er strich, er hat gestrichen
+tragen, (to wear), er trägt, er trug, er hat getragen
+treffen, (to meet), er trifft, er traf, er hat getroffen
+treiben, (to force/drive/urge), er treibt, er trieb, er hat getrieben
+treten, (to step/go), er tritt, er trat, er ist getreten
 trinken, (to drink), er trinkt, er trank, er hat getrunken
+tun, (to do), er tut, er tat, er hat getan
+wachsen, (to grow (by itself)), er wächst, er wuchs, er ist gewachsen
 waschen, (to wash), er wäscht, er wusch, er hat gewaschen
+werben, (to advertise/push), er wirbt, er warb, er hat geworben
+werfen, (to throw), er wirft, er warf, er hat geworfen
+wiegen, (to weigh), er wiegt, er wog, er hat gewogen
+wissen, (to know (a fact)), er weiß, er wusste, er hat gewusst
+ziehen, (to pull/draw), er zieht, er zog, er hat gezogen
+ziehen, (to go/move), er zieht, er zog, er ist gezogen
+zwingen, (to compel, force), er zwingt, er zwang, er hat gezwungen
 
 // w seperable prefix
 abwaschen, (to wash (the dishes)), er wäscht ab, er wusch ab, er hat abgewaschen
+anrufen, (to call (on the phone)), er ruft an, er rief an, er hat angerufen
 anschließen, (to connect), er schließt an, er schloß an, er hat angeschlossen
 beitreten, (to join (a club)), er tritt bei, er trat bei, er ist beigetreten
+übernehmen, (to take over), er nimmt über, er nahm über, er hat übergenommen
 wahrnehmen, (to notice), er nimmt wahr, er nahm wahr, er hat wahrgenommen
 
 // w unseperable prefix
@@ -176,7 +219,12 @@ genießen, (to enjoy), er genießt, er genoss, er hat genossen
 geraten, (to fall into / get into), er gerät, er geriet, er ist geraten
 geschehen, (to happen), er geschieht, er geschah, er ist geschehen
 gewinnen, (to win), er gewinnt, er gewann, er hat gewonnen
-
-übernehmen, (to take over), er nimmt über, er nahm über, er hat übergenommen
+verbergen, (to hide/conceal), er verbirgt, er verbarg, er hat verborgen
+verderben, (to spoil/ruin), er verdirbt, er verdarb, er hat verdorben
 vergessen, (to forget), er vergisst, er vergaß, er hat vergessen
+verlassen, (to leave (a place/person)), er verlässt, er verließ, er hat verlassen
+verlieren, (to lose), er verliert, er verlor, er hat verloren
+vermeiden, (to avoid), er vermeidet, er vermied, er hat vermieden
+verschwinden, (to disappear), er verschwindet, er verschwand, er ist verschwunden
 versprechen, (to promise), er verspricht, er versprach, er hat versprochen
+verzeihen, (to pardon/excuse), er verzeiht, er verzieh, er hat verziehen
