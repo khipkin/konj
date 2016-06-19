@@ -35,6 +35,7 @@ kochen, (to cook), er kocht, er kochte, er hat gekocht
 machen, (to do), er macht, er machte, er hat gemacht
 reden, (to speak), er redet, er redete, er hat geredet
 sagen, (to say), er sagt, er sagte, er hat gesagt
+sparen, (to save), er spart, er sparte, er hat gespart
 spielen, (to play), er spielt, er spielte, er hat gespielt
 steigern, (to raise/grow), er steigert, er steigerte, er hat gesteigert
 stellen, (to put/place/stand), er stellt, er stellte, er hat gestellt
@@ -61,6 +62,7 @@ wiederholen, (to repeat), er holt wieder, er holte wieder, er hat wiederholt
 zubereiten, (to prepare), er bereitet zu, er bereitete zu, er hat zubereitet
 
 // w unseperable prefix
+beantworten, (to answer), er beantwortet, er beantwortete, er hat beantwortet
 bestellen, (to order), er bestellt, er bestellte, er hat bestellt
 betrachten, (to look at / observe), er betrachtet, er betrachtete, er hat betrachtet
 beurteilen, (to judge), er beurteilt, er beurteilte, er hat beurteilt
@@ -86,6 +88,7 @@ registrieren, (to register), er registriert, er registrierte, er hat registriert
 servieren, (to serve), er serviert, er servierte, er hat serviert
 spazieren, (to walk), er spaziert, er spazierte, er ist spaziert
 tapezieren, (to wallpaper), er tapeziert, er tapezierte, er hat tapeziert
+zitieren, (to cite/quote), er zitiert, er zitierte, er hat zitiert
 
 
 // ==========================================
@@ -204,12 +207,14 @@ ziehen, (to go/move), er zieht, er zog, er ist gezogen
 zwingen, (to compel, force), er zwingt, er zwang, er hat gezwungen
 
 // w seperable prefix
+abbrechen, (to cancel/abort), er bricht ab, er brach ab, er hat abgebrochen
 abwaschen, (to wash (the dishes)), er wäscht ab, er wusch ab, er hat abgewaschen
 anrufen, (to call (on the phone)), er ruft an, er rief an, er hat angerufen
 anschließen, (to connect), er schließt an, er schloß an, er hat angeschlossen
 beitreten, (to join (a club)), er tritt bei, er trat bei, er ist beigetreten
 teilnehmen, (to take part), er nimmt teil, er nahm teil, er hat teilgenommen
 übernehmen, (to take over), er nimmt über, er nahm über, er hat übergenommen
+vorschlagen, (to suggest), er schlägt vor, er schlug vor, er hat vorgeschlagen
 wahrnehmen, (to notice), er nimmt wahr, er nahm wahr, er hat wahrgenommen
 
 // w unseperable prefix
@@ -229,6 +234,7 @@ geschehen, (to happen), er geschieht, er geschah, er ist geschehen
 gewinnen, (to win), er gewinnt, er gewann, er hat gewonnen
 verbergen, (to hide/conceal), er verbirgt, er verbarg, er hat verborgen
 verderben, (to spoil/ruin), er verdirbt, er verdarb, er hat verdorben
+vergeben, (to forgive), er vergibt, er vergab, er hat vergeben
 vergessen, (to forget), er vergisst, er vergaß, er hat vergessen
 verlassen, (to leave (a place/person)), er verlässt, er verließ, er hat verlassen
 verlieren, (to lose), er verliert, er verlor, er hat verloren
