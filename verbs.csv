@@ -29,6 +29,7 @@ bügeln, (to iron), er bügelt, er bügelte, er hat gebügelt
 dienen, (to serve), es dient, es diente, es hat gedient
 drücken, (to shake), er drückt, er drückte, er hat gedrückt
 fragen, (to ask), er fragt, er fragte, er hat gefragt
+führen, (to lead/guide), er führt, er führte, er hat geführt
 irren sich, (to be wrong), er irrt sich, er irrte sich, er hat sich geirrt
 kochen, (to cook), er kocht, er kochte, er hat gekocht
 machen, (to do), er macht, er machte, er hat gemacht
@@ -45,6 +46,8 @@ wünschen, (to wish), er wünscht, er wünschte, er hat gewünscht
 // w seperable prefix
 anbauen, (to plant), er baut an, er baute an, er hat angebaut
 aufräumen, (to clean), er räumt auf, er räumte auf, er hat aufgeräumt
+aussagen, (to testify), er sagt aus, er sagte aus, er hat ausgesagt
+vorstellen, (to introduce), er stellt vor, er stellte vor, er hat vorgestellt
 
 // w unseperable prefix
 
@@ -59,11 +62,14 @@ zubereiten, (to prepare), er bereitet zu, er bereitete zu, er hat zubereitet
 
 // w unseperable prefix
 bestellen, (to order), er bestellt, er bestellte, er hat bestellt
+betrachten, (to look at / observe), er betrachtet, er betrachtete, er hat betrachtet
 beurteilen, (to judge), er beurteilt, er beurteilte, er hat beurteilt
 erholen sich, (to recover), er erholt sich, er erholte sich, er hat sich erholt
 ernähren sich, (to feed on), er ernährt sich, er ernährte sich, er hat sich ernährt
 ermöglichen, (to enable), er ermöglicht, er ermöglichte, er hat ermöglicht
+ersetzen, (to replace), er ersetzt, er ersetzte, er hat ersetzt
 erzählen, (to tell), er erzählt, er erzählte, er hat erzählt
+unterstützen, (to support), er unterstützt, er unterstützte, er hat unterstützt
 verbessern, (to improve), er verbessert, er verbesserte, er hat verbessert
 verfeinern, (to refine), er verfeinert, er verfeinerte, er hat verfeinert
 veröffentlichen, (to publish), er veröffentlicht, er veröffentlichte, er hat veröffentlicht
@@ -109,7 +115,6 @@ brennen, (to burn), er brennt, er brannte, er hat gebrannt
 bringen, (to bring), er bringt, er brachte, er hat gebracht
 denken, (to think), er denkt, er dachte, er hat gedacht
 empfehlen, (to recommend), er empfiehlt, er empfahl, er hat empfohlen
-erschrecken, (to be frightened), er erschrickt, er erschrak, er ist erschrocken
 essen, (to eat), er isst, er aß, er hat gegessen
 fahren, (to drive), er fährt, er fuhr, er ist gefahren
 fallen, (to fall), er fällt, er fiel, er ist gefallen
@@ -203,6 +208,7 @@ abwaschen, (to wash (the dishes)), er wäscht ab, er wusch ab, er hat abgewasche
 anrufen, (to call (on the phone)), er ruft an, er rief an, er hat angerufen
 anschließen, (to connect), er schließt an, er schloß an, er hat angeschlossen
 beitreten, (to join (a club)), er tritt bei, er trat bei, er ist beigetreten
+teilnehmen, (to take part), er nimmt teil, er nahm teil, er hat teilgenommen
 übernehmen, (to take over), er nimmt über, er nahm über, er hat übergenommen
 wahrnehmen, (to notice), er nimmt wahr, er nahm wahr, er hat wahrgenommen
 
@@ -211,7 +217,9 @@ befehlen, (to command/order), er befiehlt, er befahl, er hat befohlen
 behalten, (to keep), er behält, er behielt, er hat behalten
 beraten, (to advise), er berät, er beriet, er hat beraten
 bewegen, (to move), er bewegt, er bewog, er hat bewogen
+entscheiden, (to decide), er entscheidet, er entschied, er hat entschieden
 erfahren, (to find out), er erfährt, er erfuhr, er hat erfahren
+erschrecken, (to be frightened), er erschrickt, er erschrak, er ist erschrocken
 gedeihen, (to flourish/prosper), er gedeiht, er gedieh, er ist gediehen
 gelingen, (to succeed (impersonal)), er gelingt, er gelang, er ist gelungen
 gefallen, (to please (someone)), er gefällt, er gefiel, er hat gefallen
