@@ -32,7 +32,9 @@ fragen, (to ask), er fragt, er fragte, er hat gefragt
 führen, (to lead/guide), er führt, er führte, er hat geführt
 irren sich, (to be wrong), er irrt sich, er irrte sich, er hat sich geirrt
 kochen, (to cook), er kocht, er kochte, er hat gekocht
+lernen, (to learn), er lernt, er lernte, er hat gelernt
 machen, (to do), er macht, er machte, er hat gemacht
+prüfen, (to test), er prüft, er prüfte, er hat geprüft
 reden, (to speak), er redet, er redete, er hat geredet
 sagen, (to say), er sagt, er sagte, er hat gesagt
 sparen, (to save), er spart, er sparte, er hat gespart
@@ -64,6 +66,7 @@ zubereiten, (to prepare), er bereitet zu, er bereitete zu, er hat zubereitet
 // w unseperable prefix
 beantworten, (to answer), er beantwortet, er beantwortete, er hat beantwortet
 bestellen, (to order), er bestellt, er bestellte, er hat bestellt
+besuchen, (to visit), er besucht, er besuchte, er hat besucht
 betrachten, (to look at / observe), er betrachtet, er betrachtete, er hat betrachtet
 beurteilen, (to judge), er beurteilt, er beurteilte, er hat beurteilt
 erholen sich, (to recover), er erholt sich, er erholte sich, er hat sich erholt
@@ -237,6 +240,7 @@ verderben, (to spoil/ruin), er verdirbt, er verdarb, er hat verdorben
 vergeben, (to forgive), er vergibt, er vergab, er hat vergeben
 vergessen, (to forget), er vergisst, er vergaß, er hat vergessen
 verlassen, (to leave (a place/person)), er verlässt, er verließ, er hat verlassen
+verlaufen sich, (to be lost (on foot)), er verläuft sich, er verlief sich, er hat sich verlaufen
 verlieren, (to lose), er verliert, er verlor, er hat verloren
 vermeiden, (to avoid), er vermeidet, er vermied, er hat vermieden
 verschwinden, (to disappear), er verschwindet, er verschwand, er ist verschwunden
