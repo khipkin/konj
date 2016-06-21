@@ -88,8 +88,8 @@ ertönen, (to sound), es ertönt, es ertönte, es ist ertönt
 erzählen, (to tell), er erzählt, er erzählte, er hat erzählt
 unterstützen, (to support), er unterstützt, er unterstützte, er hat unterstützt
 untersuchen, (to examine/analyse), er untersucht, er untersuchte, er hat untersucht
-verbessern, (to improve), er verbessert, er verbesserte, er hat verbessert
-verbrauchen, (to consume), er verbraucht, er verbrauchte, er hat verbraucht
+verbessern, (to improve/correct), er verbessert, er verbesserte, er hat verbessert
+verbrauchen, (to use/consume), er verbraucht, er verbrauchte, er hat verbraucht
 verdoppeln sich, (to double), er verdoppelt sich, er verdoppelte sich, er hat sich verdoppelt
 verfeinern, (to refine), er verfeinert, er verfeinerte, er hat verfeinert
 verheimlichen, (to hide), er verheimlicht, er verheimlichte, er hat verheimlicht
@@ -102,13 +102,19 @@ verzichten (auf), (to pass (up) / to forgo), er verzichtet, er verzichtete, er h
 // -ieren verbs
 abonnieren, (to subscribe to), er abonniert, er abonnierte, er hat abonniert
 akzeptieren, (to accept), er akzeptiert, er akzeptierte, er hat akzeptiert
+diskutieren, (to discuss), er diskutiert, er diskutierte, er hat diskutiert
+fotografieren, (to photograph), er fotografiert, er fotografierte, er hat fotografiert
 funktionieren, (to function), er funktioniert, er funktionierte, er hat funktioniert
+gratulieren, (to congratulate), er gratuliert, er gratulierte, er hat gratuliert
 informieren, (to inform), er informiert, er informierte, er hat informiert
-passieren, (to happen), er passiert, er passierte, er hat passiert
+irritieren, (to irritate), er irritiert, er irritierte, er hat irritiert
+passieren, (to happen), er passiert, er passierte, er ist passiert
 registrieren, (to register), er registriert, er registrierte, er hat registriert
 sanieren, (to rehabilitate), er saniert, er sanierte, er hat saniert
 servieren, (to serve), er serviert, er servierte, er hat serviert
+sortieren, (to sort), er sortiert, er sortierte, er hat sortiert
 spazieren, (to walk), er spaziert, er spazierte, er ist spaziert
+studieren, (to study / major in), er studiert, er studierte, er hat studiert
 tapezieren, (to wallpaper), er tapeziert, er tapezierte, er hat tapeziert
 zitieren, (to cite/quote), er zitiert, er zitierte, er hat zitiert
 
@@ -132,7 +138,7 @@ biegen, (to bend/turn), er biegt, er bog, er ist gebogen
 bieten, (to offer/bid), er bietet, er bot, er hat geboten
 binden, (to tie), er bindet, er band, er hat gebunden
 bitten, (to request), er bittet, er bat, er hat gebeten
-blasen, (to blow), er bläst, er blies, er hat geblasen
+blasen, (to blow / be windy), er bläst, er blies, er hat geblasen
 bleiben, (to stay/remain), er bleibt, er blieb, er ist geblieben
 braten, (to roast), er brät, er briet, er hat gebraten
 brechen, (to break), er bricht, er brach, er hat gebrochen
@@ -158,7 +164,7 @@ gleichen, (to resemble), er gleicht, er glich, er hat geglichen
 gleiten, (to glide/slide), er gleitet, er glitt, er ist geglitten
 graben, (to dig), er gräbt, er grub, er hat gegraben
 greifen, (to grasp/grab hold of), er greift, er griff, er hat gegriffen
-halten, (to hold), er hält, er hielt, er hat gehalten
+halten, (to stop/hold), er hält, er hielt, er hat gehalten
 heben, (to raise/lift), er hebt, er hob, er hat gehoben
 heißen, (to be called), er heißt, er hieß, er hat geheißen
 helfen, (to help), er hilft, er half, er hat geholfen
@@ -212,7 +218,7 @@ stehlen, (to steal), er stiehlt, er stahl, er hat gestohlen
 sterben, (to die), er stirbt, er starb, er ist gestorben
 stinken, (to stink), er stinkt, er stank, er hat gestunken
 streichen, (to paint), er streicht, er strich, er hat gestrichen
-tragen, (to wear), er trägt, er trug, er hat getragen
+tragen, (to wear/carry), er trägt, er trug, er hat getragen
 treffen, (to meet), er trifft, er traf, er hat getroffen
 treiben, (to force/drive/urge), er treibt, er trieb, er hat getrieben
 treten, (to step/go), er tritt, er trat, er ist getreten
