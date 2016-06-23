@@ -26,11 +26,14 @@ werden, (to become), er wird, er wurde, er ist geworden
 // base verbs
 achten (auf), (to watch / pay attention to), er achtet, er achtete, er hat geachtet
 antworten, (to answer), er antwortet, er antwortete, er hat geantwortet
+ärgern sich, (to be angry), er ärgert sich, er ärgerte sich, er hat sich geärgert
 bauen, (to build), er baut, er baute, er hat gebaut
 bügeln, (to iron), er bügelt, er bügelte, er hat gebügelt
 dienen, (to serve), es dient, es diente, es hat gedient
 drücken, (to push/press), er drückt, er drückte, er hat gedrückt
+duschen sich, (to shower), er duscht sich, er duschte sich, er hat sich geduscht
 fragen, (to ask), er fragt, er fragte, er hat gefragt
+freuen sich, (to be happy / rejoice), er freut sich, er freute sich, er hat sich gefreut
 führen, (to lead/guide), er führt, er führte, er hat geführt
 glauben, (to believe), er glaubt, er glaubte, er hat geglaubt
 irren sich, (to be wrong), er irrt sich, er irrte sich, er hat sich geirrt
@@ -59,6 +62,7 @@ aufräumen, (to clean), er räumt auf, er räumte auf, er hat aufgeräumt
 aussagen, (to testify), er sagt aus, er sagte aus, er hat ausgesagt
 ausschalten, (to turn off), er schaltet aus, er schaltete aus, er hat ausgeschaltet
 vorstellen, (to introduce), er stellt vor, er stellte vor, er hat vorgestellt
+vorstellen sich, (to introduce oneself), er stellt sich vor, er stellte sich vor, er hat sich vorgestellt
 
 // w unseperable prefix
 
@@ -73,10 +77,14 @@ zubereiten, (to prepare), er bereitet zu, er bereitete zu, er hat zubereitet
 
 // w unseperable prefix
 beantworten, (to answer), er beantwortet, er beantwortete, er hat beantwortet
+bedanken sich, (to thank), er bedankt sich, er bedankte sich, er hat sich bedankt
+beeilen sich, (to hurry/rush), er beeilt sich, er beeilte sich, er hat sich beeilt
 benutzen, (to use), er benutzt, er benutzte, er hat benutzt
 berichten (über), (to give an account of / to cover), er berichtet, er berichtete, er hat berichtet
 beschäftigen sich (mit), (to keep oneself busy (with)), er beschäftigt sich, er beschäftigte sich, er hat sich beschäftigt
 beschützen, (to shelter/protect), er beschützt, er beschützte, er hat beschützt
+beschweren sich, (to blame), er beschwert sich, er beschwerte sich, er hat sich beschwert
+beschweren sich (über), (to complain (about)), er beschwert sich, er beschwerte sich, er hat sich beschwert
 bestellen, (to order), er bestellt, er bestellte, er hat bestellt
 besuchen, (to visit), er besucht, er besuchte, er hat besucht
 betrachten, (to look at / observe), er betrachtet, er betrachtete, er hat betrachtet
@@ -84,6 +92,8 @@ beurteilen, (to judge), er beurteilt, er beurteilte, er hat beurteilt
 bezahlen, (to pay), er bezahlt, er bezahlte, er hat bezahlt
 erhöhen, (to increase), er erhöht, er erhöhte, er hat erhöht
 erholen sich, (to recover), er erholt sich, er erholte sich, er hat sich erholt
+erinnern sich, (to remember), er erinnert sich, er erinnerte sich, er hat sich erinnert
+erkälten sich, (to catch a cold), er erkältet sich, er erkältete sich, er hat sich erkältet
 erklären, (to explain), er erklärt, er erklärte, er hat erklärt
 ermöglichen, (to enable), er ermöglicht, er ermöglichte, er hat ermöglicht
 ernähren sich, (to feed on), er ernährt sich, er ernährte sich, er hat sich ernährt
@@ -98,10 +108,11 @@ verbrauchen, (to use/consume), er verbraucht, er verbrauchte, er hat verbraucht
 verdoppeln sich, (to double), er verdoppelt sich, er verdoppelte sich, er hat sich verdoppelt
 verfeinern, (to refine), er verfeinert, er verfeinerte, er hat verfeinert
 verheimlichen, (to hide), er verheimlicht, er verheimlichte, er hat verheimlicht
-vermissen, (to miss), er vermisst, er vermisste, er hat vermisst
-veröffentlichen, (to publish), er veröffentlicht, er veröffentlichte, er hat veröffentlicht
 verkaufen, (to sell), er verkauft, er verkaufte, er hat verkauft
 verletzen, (to injure), er verletzt, er verletzte, er hat verletzt
+verlieben sich, (to fall in love), er verliebt sich, er verliebte sich, er hat sich verliebt
+vermissen, (to miss), er vermisst, er vermisste, er hat vermisst
+veröffentlichen, (to publish), er veröffentlicht, er veröffentlichte, er hat veröffentlicht
 verzichten (auf), (to pass (up) / to forgo), er verzichtet, er verzichtete, er hat verzichtet
 
 // -ieren verbs
@@ -225,6 +236,7 @@ stehlen, (to steal), er stiehlt, er stahl, er hat gestohlen
 sterben, (to die), er stirbt, er starb, er ist gestorben
 stinken, (to stink), er stinkt, er stank, er hat gestunken
 streichen, (to paint), er streicht, er strich, er hat gestrichen
+streiten sich, (to argue/fight), er streitet sich, er stritt sich, er hat sich gestritten
 tragen, (to wear/carry), er trägt, er trug, er hat getragen
 treffen, (to meet), er trifft, er traf, er hat getroffen
 treiben, (to force/drive/urge), er treibt, er trieb, er hat getrieben
@@ -244,19 +256,28 @@ zwingen, (to compel, force), er zwingt, er zwang, er hat gezwungen
 // w seperable prefix
 abbrechen, (to cancel/abort), er bricht ab, er brach ab, er hat abgebrochen
 abnehmen, (to take (something) off), er nimmt ab, er nahm ab, er hat abgenommen
+abschließen, (to finish/complete), er schließt ab, er schloss ab, er hat abgeschlossen
 abwaschen, (to wash (the dishes)), er wäscht ab, er wusch ab, er hat abgewaschen
+anfangen, (to start), er fängt an, er fing an, er hat angefangen
 anrufen, (to call (on the phone)), er ruft an, er rief an, er hat angerufen
 anschließen, (to connect), er schließt an, er schloß an, er hat angeschlossen
+anziehen sich, (to get dressed), er zieht sich an, er zog sich an, er hat sich angezogen
 aufladen, (to charge), er lädt auf, er lud auf, er hat aufgeladen
+aufstehen, (to get/stand up), er steht auf, er stand auf, er ist aufgestanden
 beitreten, (to join (a club)), er tritt bei, er trat bei, er ist beigetreten
+einnehmen, (to take/ingest), er nimmt ein, er nahm ein, er hat eingenommen
 teilnehmen, (to take part), er nimmt teil, er nahm teil, er hat teilgenommen
 übernehmen, (to take over), er nimmt über, er nahm über, er hat übergenommen
+umziehen, (to move house / relocate), er zieht um, er zog um, er ist umgezogen
+umziehen sich, (to change (one's clothes)), er zieht sich um, er zog sich um, er hat sich umgezogen
 vorschlagen, (to suggest), er schlägt vor, er schlug vor, er hat vorgeschlagen
 wahrnehmen, (to notice), er nimmt wahr, er nahm wahr, er hat wahrgenommen
 
 // w unseperable prefix
 befehlen, (to command/order), er befiehlt, er befahl, er hat befohlen
+befinden sich, (to be found / to be), er befindet sich, er befand sich, er hat sich befunden
 behalten, (to keep), er behält, er behielt, er hat behalten
+bekommen, (to get/recieve), er bekommt, er bekam, er hat bekommen
 beraten, (to advise), er berät, er beriet, er hat beraten
 bewegen, (to move), er bewegt, er bewog, er hat bewogen
 entscheiden, (to decide), er entscheidet, er entschied, er hat entschieden
@@ -273,6 +294,7 @@ geschehen, (to happen), er geschieht, er geschah, er ist geschehen
 gewinnen, (to win), er gewinnt, er gewann, er hat gewonnen
 unterbieten, (to undercut (offer at a lower price)), er unterbietet, er unterbot, er hat unterboten
 unterbrechen, (to interrupt), er unterbricht, er unterbrach, er hat unterbrochen
+unterhalten sich, (to chat/converse), er unterhält sich, er unterhielt sich, er hat sich unterhalten
 verbergen, (to hide/conceal), er verbirgt, er verbarg, er hat verborgen
 verderben, (to spoil/ruin), er verdirbt, er verdarb, er hat verdorben
 vergeben, (to forgive), er vergibt, er vergab, er hat vergeben
