@@ -32,7 +32,7 @@ full_german_verb_form(V) :-
 % definition(?GermanInf, ?EnglishInf) - predicate that stores the relationship
 % between German infinitive forms and their English equivalents
 %
-% "-" is used to denote a seperable prefix; "+" is used to denote an inseperable prefix.
+% "-" is used to denote a seperable prefix; "+" is used to denote an inseparable prefix.
 %
 % ?GermanInf - the German infinitive verb form
 % ?EnglishInf - the equivalent English infinitive verb form
@@ -45,6 +45,7 @@ definition(rufen, "to shout").
 definition(an-rufen, "to call (on the phone)").
 definition(sprechen, "to speak").
 definition(ver+sprechen, "to promise").
+definition(sammeln, "to collect").
 
 %%
 % infinitive(?V) - predicate for infinitive verb forms
@@ -80,7 +81,7 @@ verb_forms(infinitive(Prefix-InfV),
 	infinitive(InfV),
 	verb_forms(infinitive(InfV), simple_past(SimpPastInf), perfect(HelpVInf,PastPart)).
 
-% the forms of a verb with an inseperable prefix
+% the forms of a verb with an inseparable prefix
 verb_forms(infinitive(Prefix+InfV),
 			simple_past(Prefix+SimpPastInf),
 			perfect(HelpVInf,Prefix+PastPart)) :-
@@ -102,3 +103,4 @@ verb_forms(infinitive(nehmen), simple_past(nahmen), perfect(haben,genommen)).
 verb_forms(infinitive(gehen), simple_past(gingen), perfect(sein,gegangen)).
 verb_forms(infinitive(rufen), simple_past(ruften), perfect(haben,gerufen)).
 verb_forms(infinitive(sprechen), simple_past(sprachen), perfect(haben,gesprochen)).
+verb_forms(infinitive(sammeln), simple_past(sammelten), perfect(haben,gesammelt)).
