@@ -104,3 +104,35 @@ verb_forms(infinitive(gehen), simple_past(gingen), perfect(sein,gegangen)).
 verb_forms(infinitive(rufen), simple_past(ruften), perfect(haben,gerufen)).
 verb_forms(infinitive(sprechen), simple_past(sprachen), perfect(haben,gesprochen)).
 verb_forms(infinitive(sammeln), simple_past(sammelten), perfect(haben,gesammelt)).
+
+% unit tests
+%
+% start unit tests, prove
+% ?- run_tests.
+%
+:- begin_tests(verb_forms).
+
+% test if verbs with seperable prefix are conjugated based on the root verb
+test(sep_prefix_from_root) :-
+    once(infinitive(Prefix-Inf)),
+    verb_forms(infinitive(Inf), _, _),
+    verb_forms(infinitive(Prefix-Inf), _, _).
+
+% test if verbs with inseparable prefix are conjugated based on the root verb
+test(insep_prefix_from_root) :-
+    once(infinitive(Prefix+Inf)),
+    verb_forms(infinitive(Inf), _, _),
+    verb_forms(infinitive(Prefix+Inf), _, _).
+
+% test if "-ieren" verbs can be conjugated
+test(ieren_infinitive) :-
+	once(ieren_infinitive(Inf)),
+    verb_forms(infinitive(Inf), _, _).
+
+% test if verb_forms can handle "-eln" verbs
+test(eln_verb_forms) :-
+    verb_forms(infinitive(ElnInf), _, _),
+    atomic(ElnInf),
+	string_concat(_, "eln", ElnInf).
+
+:- end_tests(verb_forms).
