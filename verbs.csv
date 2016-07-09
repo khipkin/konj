@@ -65,6 +65,7 @@ anbauen, (to plant), er baut an, er baute an, er hat angebaut
 aufräumen, (to clean), er räumt auf, er räumte auf, er hat aufgeräumt
 aussagen, (to testify), er sagt aus, er sagte aus, er hat ausgesagt
 ausschalten, (to turn off), er schaltet aus, er schaltete aus, er hat ausgeschaltet
+einschalten, (to turn on), er schaltet ein, er schaltete ein, er hat eingeschaltet
 vorstellen, (to introduce), er stellt vor, er stellte vor, er hat vorgestellt
 vorstellen sich, (to introduce oneself), er stellt sich vor, er stellte sich vor, er hat sich vorgestellt
 
@@ -107,7 +108,7 @@ ersetzen, (to replace), er ersetzt, er ersetzte, er hat ersetzt
 ertönen, (to sound), es ertönt, es ertönte, es ist ertönt
 erzählen, (to tell), er erzählt, er erzählte, er hat erzählt
 unterstützen, (to support), er unterstützt, er unterstützte, er hat unterstützt
-untersuchen, (to examine/analyse), er untersucht, er untersuchte, er hat untersucht
+untersuchen, (to examine/analyse/investigate), er untersucht, er untersuchte, er hat untersucht
 verbessern, (to improve/correct), er verbessert, er verbesserte, er hat verbessert
 verbrauchen, (to use/consume), er verbraucht, er verbrauchte, er hat verbraucht
 verdoppeln sich, (to double), er verdoppelt sich, er verdoppelte sich, er hat sich verdoppelt
@@ -263,7 +264,7 @@ zwingen, (to compel, force), er zwingt, er zwang, er hat gezwungen
 // w seperable prefix
 abbrechen, (to cancel/abort), er bricht ab, er brach ab, er hat abgebrochen
 abnehmen, (to take (something) off), er nimmt ab, er nahm ab, er hat abgenommen
-abschließen, (to finish/complete), er schließt ab, er schloss ab, er hat abgeschlossen
+abschließen, (to finish/complete/lock), er schließt ab, er schloss ab, er hat abgeschlossen
 abwaschen, (to wash (the dishes)), er wäscht ab, er wusch ab, er hat abgewaschen
 anfangen, (to start), er fängt an, er fing an, er hat angefangen
 anrufen, (to call (on the phone)), er ruft an, er rief an, er hat angerufen
